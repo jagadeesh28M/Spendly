@@ -57,7 +57,7 @@ export async function GET() {
         id: true,
         name: true,
         amount: true,
-        Budgets: true,
+        budget: true,
       },
     });
 

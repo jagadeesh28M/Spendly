@@ -1,4 +1,4 @@
-import { getBudgets } from "@/app/api/budget/route";
+import { getBudgets } from "@/lib/actions/budget";
 import DashboardBudgetCard from "./DashboardBudgetCard";
 import ExpenseListTable from "./ExpenseListTable";
 import BarChartDashboard from "./BarChartDashboard";

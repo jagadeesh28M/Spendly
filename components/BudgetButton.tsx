@@ -14,7 +14,7 @@ import {
 import { Input } from "@/components/ui/input";
 import EmojiPicker from "emoji-picker-react";
 import { useState } from "react";
-import { createBudget } from "@/app/api/budget/route";
+import { createBudget } from "@/lib/actions/budget";
 import { toast } from "sonner";
 
 export default function BudgetButton() {

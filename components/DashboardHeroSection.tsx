@@ -1,4 +1,4 @@
-import { getDetails } from "@/app/api/dashboard/route";
+import { getDetails } from "@/lib/actions/dashboard";
 import FinanSmartAi from "./FinanSmartAi";
 import { CircleDollarSign, PiggyBank, ReceiptText, Wallet } from "lucide-react";
 import { JSX } from "react";

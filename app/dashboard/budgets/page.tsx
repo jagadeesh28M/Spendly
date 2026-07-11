@@ -1,4 +1,4 @@
-import { getBudgets } from "@/app/api/budget/route";
+import { getBudgets } from "@/lib/actions/budget";
 import BudgetButton from "@/components/BudgetButton";
 import BudgetCard from "@/components/BudgetCard";
 

@@ -7,7 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from "./ui/table";
-import { getExpenses } from "@/app/api/dashboard/route";
+import { getExpenses } from "@/lib/actions/dashboard";
 
 async function ExpenseListTable() {
   const result = await getExpenses();
